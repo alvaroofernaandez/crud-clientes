@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\verclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:verclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\verclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:verclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\verclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:verclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +42,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\Cliente.cs",
+              "RelativeDocumentMoniker": "Cliente.cs",
+              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\Cliente.cs",
+              "RelativeToolTip": "Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:13:17.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VerClientes.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml.cs",
               "RelativeDocumentMoniker": "VerClientes.xaml.cs",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml.cs*",
-              "RelativeToolTip": "VerClientes.xaml.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml.cs",
+              "RelativeToolTip": "VerClientes.xaml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv38AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T21:56:19.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VerClientes.xaml",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml",
               "RelativeDocumentMoniker": "VerClientes.xaml",
@@ -63,28 +80,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:21:28.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T18:21:28.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T18:21:32.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T18:21:32.357Z"
             }
           ]
         }

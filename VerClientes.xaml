@@ -12,6 +12,7 @@
                 <DropShadowEffect/>
             </Rectangle.Effect>
         </Rectangle>
+
         <Label x:Name="lblTitulo" Content="Clientes" HorizontalAlignment="Center" Margin="0,11,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="36">
             <Label.RenderTransform>
                 <TransformGroup>
@@ -22,9 +23,17 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,348,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="82" Click="btnSalir_Click"/>
-        <TextBox x:Name="txbClientes" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="412" Height="171" FontSize="16" FontFamily="Cascadia Code SemiBold"/>
+
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="674,19,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="82" Click="btnSalir_Click"/>
+
+        <!-- TextBox con márgenes a todos los lados -->
+        <TextBox x:Name="txbClientes" TextWrapping="Wrap" 
+                 Margin="85,192,85,50" FontSize="12" 
+                 FontFamily="Cascadia Code SemiBold" Foreground="Black"
+                 Background="White" VerticalScrollBarVisibility="Auto"/>
+
         <Button x:Name="btnMostrarClientes" Content="Mostrar clientes" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,111,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="258" Click="btnMostrarClientes_click"/>
+        <Button x:Name="btnReset__" Content="Reset" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,148,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="258" Click="btnReset_click"/>
 
     </Grid>
 </Window>

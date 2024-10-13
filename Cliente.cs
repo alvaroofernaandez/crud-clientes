@@ -14,7 +14,7 @@ namespace UA2TAREA4
 
         public string correo { get; set; }
 
-        public Cliente(int id, string nombre, string correo)
+        public Cliente()
         {
             this.id = id;
             this.nombre = nombre;

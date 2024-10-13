@@ -26,3 +26,4 @@ C:\Users\alvar\source\repos\UA2TAREA4\obj\Debug\net8.0-windows\AgregarClientes.b
 C:\Users\alvar\source\repos\UA2TAREA4\obj\Debug\net8.0-windows\EditarClientes.baml
 C:\Users\alvar\source\repos\UA2TAREA4\obj\Debug\net8.0-windows\EliminarClientes.baml
 C:\Users\alvar\source\repos\UA2TAREA4\obj\Debug\net8.0-windows\VerClientes.baml
+C:\Users\alvar\source\repos\UA2TAREA4\obj\Debug\net8.0-windows\UA2TAREA4.sourcelink.json

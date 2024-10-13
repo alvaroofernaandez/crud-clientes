@@ -1,0 +1,13 @@
+
+<clientes>
+  <cliente>
+    <id>1</id>
+    <nombre>John Doe</nombre>
+    <correo>john.doe@example.com</correo>
+  </cliente>
+  <cliente>
+    <id>2</id>
+    <nombre>Jane Smith</nombre>
+    <correo>jane.smith@example.com</correo>
+  </cliente>
+</clientes>

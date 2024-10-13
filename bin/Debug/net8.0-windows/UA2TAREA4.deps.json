@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UA2TAREA4/1.0.0": {
+        "runtime": {
+          "UA2TAREA4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UA2TAREA4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

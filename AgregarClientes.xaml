@@ -22,6 +22,13 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Center" Margin="0,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+        <TextBox x:Name="txbCorreo" HorizontalAlignment="Center" Margin="0,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+        <Label x:Name="lblNombre" Content="Introduce el nombre:" HorizontalAlignment="Center" Margin="0,101,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
+        <Label x:Name="lblCorreo" Content="Introduce el correo:" HorizontalAlignment="Center" Margin="0,163,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
+        <Button x:Name="btnAñadirClientes" Content="Añadir" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,245,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnAddClientes_click"/>
+        <Button x:Name="btnReset__" Content="Reset" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,282,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnReset_click"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="674,19,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="82" Click="btnSalir_Click"/>
 
     </Grid>
 </Window>

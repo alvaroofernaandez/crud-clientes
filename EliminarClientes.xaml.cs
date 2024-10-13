@@ -23,5 +23,30 @@ namespace UA2TAREA4
         {
             InitializeComponent();
         }
+
+        private void btnEliminarClientes_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnReset_click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("¿Seguro que quieres borrar el contenido?", "Atención", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                txbBuscarPorID.Text = "";
+            }
+        }
+
+        private void btnSalir_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("¿Seguro que quieres cerrar el programa?", "Atención", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

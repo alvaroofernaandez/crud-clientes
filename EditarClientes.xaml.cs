@@ -14,14 +14,38 @@ using System.Windows.Shapes;
 
 namespace UA2TAREA4
 {
-    /// <summary>
-    /// Lógica de interacción para EditarClientes.xaml
-    /// </summary>
     public partial class EditarClientes : Window
     {
         public EditarClientes()
         {
             InitializeComponent();
+        }
+
+        private void btnEditarClientes_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnReset_click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("¿Seguro que quieres borrar el contenido?", "Atención", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                txbNombre.Text = "";
+                txbBuscarPorID.Text = "";
+                txbCorreo.Text = "";
+            }
+        }
+
+        private void btnSalir_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("¿Seguro que quieres cerrar el programa?", "Atención", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

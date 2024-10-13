@@ -22,6 +22,15 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Center" Margin="0,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+        <TextBox x:Name="txbCorreo" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20" Margin="0,240,0,0"/>
+        <Label x:Name="lblNombre" Content="Introduce el nuevo nombre:" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
+        <Label x:Name="lblCorreo" Content="Introduce el nuevo correo:" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White" Margin="0,214,0,0"/>
+        <Button x:Name="btnEditarClientes" Content="Editar" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,297,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnEditarClientes_click"/>
+        <Button x:Name="btnReset__" Content="Reset" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,334,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnReset_click"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="674,19,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="82" Click="btnSalir_Click"/>
+        <TextBox x:Name="txbBuscarPorID" HorizontalAlignment="Center" Margin="0,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+        <Label x:Name="lblBuscarPorId" Content="Introduce el id del cliente que deseas editar:" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
 
     </Grid>
 </Window>

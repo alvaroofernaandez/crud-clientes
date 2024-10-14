@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\eliminarclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:eliminarclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\editarclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:editarclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\editarclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:editarclientes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\verclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:verclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|c:\\users\\alvar\\source\\repos\\ua2tarea4\\agregarclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5210640E-4805-47DD-AB51-55332A7F3884}|UA2TAREA4.csproj|solutionrelative:agregarclientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,64 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EliminarClientes.xaml",
-              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EliminarClientes.xaml",
-              "RelativeDocumentMoniker": "EliminarClientes.xaml",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EliminarClientes.xaml*",
-              "RelativeToolTip": "EliminarClientes.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T23:06:50.067Z",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:21:39.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditarClientes.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EditarClientes.xaml.cs",
-              "RelativeDocumentMoniker": "EditarClientes.xaml.cs",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EditarClientes.xaml.cs",
-              "RelativeToolTip": "EditarClientes.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T23:04:47.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditarClientes.xaml",
-              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EditarClientes.xaml",
-              "RelativeDocumentMoniker": "EditarClientes.xaml",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\EditarClientes.xaml",
-              "RelativeToolTip": "EditarClientes.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T23:02:25.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "VerClientes.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml.cs",
               "RelativeDocumentMoniker": "VerClientes.xaml.cs",
               "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\VerClientes.xaml.cs",
               "RelativeToolTip": "VerClientes.xaml.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:59:21.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AgregarClientes.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\AgregarClientes.xaml.cs",
-              "RelativeDocumentMoniker": "AgregarClientes.xaml.cs",
-              "ToolTip": "C:\\Users\\alvar\\source\\repos\\UA2TAREA4\\AgregarClientes.xaml.cs",
-              "RelativeToolTip": "AgregarClientes.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAawCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:59:06.495Z",
+              "WhenOpened": "2024-10-14T15:05:51.775Z",
               "EditorCaption": ""
             }
           ]

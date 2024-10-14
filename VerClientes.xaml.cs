@@ -19,18 +19,19 @@ namespace UA2TAREA4
 {
     public partial class VerClientes : Window
     {
-        public string rutaArchivo = "datos.xml";
+        string rutaArchivo = "datos.xml";
         public List<Cliente> clientes = new List<Cliente>();
 
-        public VerClientes()
+        public VerClientes(string rutaArchivo)
         {
             InitializeComponent();
+            this.rutaArchivo=rutaArchivo;
         }
 
         private void btnMostrarClientes_click(object sender, RoutedEventArgs e)
         {
             try
-            {   
+            {
                 clientes.Clear();
 
                 if (File.Exists(rutaArchivo) == true)
@@ -43,35 +44,46 @@ namespace UA2TAREA4
 
                             while (reader.Read())
                             {
-                                if (reader.IsStartElement() && reader.IsEmptyElement == false)
+                                if (reader.IsStartElement() && reader.IsEmptyElement == false )
                                 {
-                                    switch (reader.Name)
+                                    if (reader.NodeType == XmlNodeType.Element)
                                     {
-                                        case "cliente":
-                                            cliente = new Cliente();
-                                            break;
-
-                                        case "id":
-                                            if(reader.Read() && cliente != null)
+                                        if (!reader.HasAttributes)
+                                        {
+                                            switch (reader.Name)
                                             {
-                                                cliente.id = int.Parse(reader.Value.Trim());
-                                            }
-                                            break;
+                                                case "cliente":
+                                                    cliente = new Cliente();
+                                                    break;
 
-                                        case "nombre":
-                                            if(reader.Read() && cliente != null)
-                                            {
-                                                cliente.nombre = reader.Value.Trim();
-                                            }
-                                            break;
+                                                case "id":
+                                                    if (reader.Read() && cliente != null)
+                                                    {
+                                                        cliente.id = int.Parse(reader.Value.Trim());
+                                                    }
+                                                    break;
 
-                                        case "correo":
-                                            if(reader.Read() && cliente != null)
-                                            {
-                                                cliente.correo = reader.Value.Trim();
+                                                case "nombre":
+                                                    if (reader.Read() && cliente != null)
+                                                    {
+                                                        cliente.nombre = reader.Value.Trim();
+                                                    }
+                                                    break;
+
+                                                case "correo":
+                                                    if (reader.Read() && cliente != null)
+                                                    {
+                                                        cliente.correo = reader.Value.Trim();
+                                                    }
+                                                    break;
                                             }
-                                            break;
+                                        }                                           
+                                    } 
+                                    else
+                                    {
+                                        MessageBox.Show("No se encuentran elementos", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                                     }
+                                    
                                 }
 
                                 if (reader.NodeType == XmlNodeType.EndElement && reader.Name == "cliente" && cliente != null)

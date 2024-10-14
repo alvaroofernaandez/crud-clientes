@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO.Packaging;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -14,6 +15,7 @@ namespace UA2TAREA4
 {
     public partial class MainWindow : Window
     {
+        public string rutaArchivo = "datos.xml";
 
         public MainWindow()
         {
@@ -33,25 +35,25 @@ namespace UA2TAREA4
 
         private void btnVerClientes_Click(object sender, RoutedEventArgs e)
         {
-            VerClientes ventanaVerClientes = new VerClientes();
+            VerClientes ventanaVerClientes = new VerClientes(rutaArchivo);
             ventanaVerClientes.Show();
         }
 
         private void btnAgregarClientes_Click(object sender, RoutedEventArgs e)
         {
-            AgregarClientes ventanaAgregarClientes = new AgregarClientes();
+            AgregarClientes ventanaAgregarClientes = new AgregarClientes(rutaArchivo);
             ventanaAgregarClientes.Show();
         }
 
         private void btnEditarClientes_Click(object sender, RoutedEventArgs e)
         {
-            EditarClientes ventanaEditarClientes = new EditarClientes();
+            EditarClientes ventanaEditarClientes = new EditarClientes(rutaArchivo);
             ventanaEditarClientes.Show();
         }
 
         private void btnEliminarClientes_Click(object sender, RoutedEventArgs e)
         {
-            EliminarClientes ventanaEliminarClientes = new EliminarClientes();
+            EliminarClientes ventanaEliminarClientes = new EliminarClientes(rutaArchivo);
             ventanaEliminarClientes.Show();
         }
     }

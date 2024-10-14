@@ -7,28 +7,27 @@
         mc:Ignorable="d"
         Title="AgregarClientes" Height="450" Width="800">
     <Grid x:Name="gridPrincipal5" Background="#FF191919">
-        <Rectangle Height="70" Stroke="Black" VerticalAlignment="Top" Fill="#FF100F0F">
-            <Rectangle.Effect>
-                <DropShadowEffect/>
-            </Rectangle.Effect>
-        </Rectangle>
-        <Label x:Name="lblTitulo" Content="Agregar clientes" HorizontalAlignment="Center" Margin="0,11,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="36">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.047"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <TextBox x:Name="txbNombre" HorizontalAlignment="Center" Margin="0,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
-        <TextBox x:Name="txbCorreo" HorizontalAlignment="Center" Margin="0,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
-        <Label x:Name="lblNombre" Content="Introduce el nombre:" HorizontalAlignment="Center" Margin="0,101,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
-        <Label x:Name="lblCorreo" Content="Introduce el correo:" HorizontalAlignment="Center" Margin="0,163,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14" Foreground="White"/>
-        <Button x:Name="btnAñadirClientes" Content="Añadir" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,245,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnAddClientes_click"/>
-        <Button x:Name="btnReset__" Content="Reset" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,282,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnReset_click"/>
-        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="674,19,0,0" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="24" Width="82" Click="btnSalir_Click"/>
+        <!-- Se usa un StackPanel para apilar los elementos verticalmente -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <!-- Título -->
+            <Label x:Name="lblTitulo" Content="Agregar clientes" HorizontalAlignment="Center" FontFamily="Arial Black" Foreground="White" FontSize="36" Margin="0,0,0,20"/>
 
+            <!-- Campo para el ID -->
+            <Label x:Name="lblId" Content="Introduce el id:" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="14" Foreground="White" Margin="0,0,0,10"/>
+            <TextBox x:Name="txbId" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <!-- Campo para el nombre -->
+            <Label x:Name="lblNombre" Content="Introduce el nombre:" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="14" Foreground="White" Margin="0,0,0,10"/>
+            <TextBox x:Name="txbNombre" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <!-- Campo para el correo -->
+            <Label x:Name="lblCorreo" Content="Introduce el correo:" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="14" Foreground="White" Margin="0,0,0,10"/>
+            <TextBox x:Name="txbCorreo" Width="314" FontFamily="Cascadia Code SemiBold" FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button x:Name="btnAñadirClientes" Content="Añadir" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnAddClientes_click"/>
+
+            <!-- Botones -->
+            <Button x:Name="btnReset__" Content="Reset" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" Click="btnReset_click"/>
+            <Button x:Name="btnSalir" Content="Salir" Background="Black" Foreground="White" BorderBrush="White" FontFamily="Arial Black" FontSize="18" Width="150" HorizontalAlignment="Center" Click="btnSalir_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -16,9 +16,6 @@ namespace UA2TAREA4
 
         public Cliente()
         {
-            this.id = id;
-            this.nombre = nombre;
-            this.correo = correo;
         }
     }
 }
